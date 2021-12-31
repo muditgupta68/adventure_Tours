@@ -1,13 +1,34 @@
 .navbar {
-  display: flex;
+  /* display: flex;
   justify-content: space-between;
-  align-items: center;
-  z-index: 10;
-  position: sticky;
+  align-items: center; */
+  z-index: 1000;
+  position: fixed;
   background-color: #fff;
   width: 100%;
   top: 0;
   padding: 5px;
+}
+.nav_options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.nav_visible {
+  display: block;
+}
+.menu_bar {
+  cursor: pointer;
+  margin-right: 30px;
+  font-size: 34px !important;
+  display: none !important;
+  margin: 20px;
+}
+.menu {
+  display: flex;
+  width: 100%;
+  justify-content: end;
 }
 .logo {
   margin-left: 40px;
@@ -16,7 +37,7 @@
   margin-right: 40px;
   justify-content: space-between;
   width: 100vw;
-  max-width: 15vw;
+  max-width: 22vw;
 }
 .company_logo {
   object-fit: contain;
@@ -51,4 +72,26 @@
   cursor: pointer;
   border-radius: 999px;
   outline: none;
+}
+@media screen and (max-width: 400px) {
+  .nav_right {
+    max-width: 28vw;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .nav_visible {
+    display: none;
+    margin: 20px;
+  }
+  .menu_bar {
+    display: block !important;
+  }
+  .nav_options {
+    flex-direction: column !important;
+  }
+  .logo,
+  .nav_center,
+  .nav_right {
+    margin: 5px 0 20px 0;
+  }
 }

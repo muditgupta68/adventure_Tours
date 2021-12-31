@@ -5,3 +5,11 @@
   align-items: center;
   padding: 20px;
 }
+
+/* responsive */
+
+@media screen and (max-width: 1336px) {
+  .home_section {
+    flex-direction: column;
+  }
+}

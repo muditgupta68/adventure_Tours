@@ -51,3 +51,25 @@
   background-color: #fff !important;
   color: #ff7779 !important;
 }
+@media screen and (max-width: 600px) {
+  .search {
+    height: 72vh;
+    left: 0 !important;
+  }
+  /* test  */
+  .search_buttons {
+    width: 76%;
+  }
+  .nop {
+    width: 78%;
+  }
+  .rdrCalendarWrapper.rdrDateRangeWrapper {
+    width: 170% !important;
+  }
+  .rdrDateDisplayWrapper {
+    width: 72%;
+  }
+  .rdrMonthAndYearWrapper {
+    width: 72%;
+  }
+}

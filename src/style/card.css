@@ -23,7 +23,7 @@
   font-weight: 300;
   margin: 20px 0;
   width: 1018px;
-  max-width: 427px;
+  max-width: 100%;
   font-family: "Karma", serif;
 }
 .card__info > h2 {
@@ -35,10 +35,16 @@
   border-radius: 10px;
   box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
   transition: all 300ms ease-in;
+  width: 31vw;
 }
 .card:hover {
   transform: scale(1.05);
 }
 .price_heading {
   font-family: "Karma", serif !important;
+}
+@media screen and (max-width: 1200px) {
+  .card {
+    width: 100%;
+  }
 }

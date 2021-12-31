@@ -10,6 +10,7 @@ function FetchData() {
   let search = localStorage.getItem("searchValue").toLowerCase();
 
   const handleClick = () => {
+    localStorage.setItem("searchValue", "");
     window.location.reload();
   };
 
