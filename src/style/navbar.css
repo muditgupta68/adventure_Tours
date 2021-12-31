@@ -1,0 +1,54 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+  position: sticky;
+  background-color: #fff;
+  width: 100%;
+  top: 0;
+  padding: 5px;
+}
+.logo {
+  margin-left: 40px;
+}
+.nav_right {
+  margin-right: 40px;
+  justify-content: space-between;
+  width: 100vw;
+  max-width: 15vw;
+}
+.company_logo {
+  object-fit: contain;
+  height: 90px;
+}
+.nav_center,
+.nav_right {
+  display: flex;
+  align-items: center;
+}
+.nav_center {
+  border: solid #c58ef2 2px;
+  border-radius: 999px;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  height: 50px;
+  padding: 20px;
+}
+
+.searchBox {
+  outline: none;
+  border: none;
+  height: 30px;
+  padding: 10px;
+  color: #ae52f8;
+}
+
+.searchButton1 {
+  padding: 2px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  border-radius: 999px;
+  outline: none;
+}

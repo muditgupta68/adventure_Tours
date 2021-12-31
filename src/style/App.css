@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pushster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karma&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+}
+.banner_description_top,
+.banner_description_down {
+  font-family: "Karma", serif;
+  font-size: 16px;
+  font-weight: normal;
+}
+.banner_description_down {
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.top_to_button {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background-color: white;
+  border-radius: 999px;
+  box-shadow: 3px 4px 20px -7px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+  display: none;
+}
+.visible {
+  display: block;
+}

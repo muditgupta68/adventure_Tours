@@ -1,0 +1,54 @@
+.banner {
+  background: url("https://assets.cntraveller.in/photos/613073519fd022fa9f74f2a6/16:9/w_1600%2Cc_limit/Ecuador-GettyImages-1167759161.jpg")
+    center center no-repeat;
+  height: 60vh;
+  width: 100%;
+  position: relative;
+}
+.content_banner {
+  background-color: rgba(6, 6, 6, 0.64);
+  width: 1000px;
+  padding: 47.1px 69px;
+  max-width: 660px;
+  color: #fff;
+}
+.banner_heading {
+  text-transform: capitalize;
+  line-height: 40px;
+  word-spacing: 2px;
+  margin-bottom: 25px;
+  font-family: "Pushster", cursive;
+  font-size: 30px;
+}
+
+.banner_description_down {
+  margin-top: 20px;
+}
+.content_banner > button {
+  background-color: #ff7779;
+  color: #fff;
+  margin-top: 20px;
+  text-transform: capitalize;
+  font-weight: 500;
+  transition: all 0.35s ease-in;
+}
+.content_banner > button:hover {
+  background-color: #fff;
+  color: #ff7779;
+}
+.searchButton {
+  background-color: #fff !important;
+  color: #ff7779 !important;
+  text-transform: capitalize !important;
+  font-weight: 800 !important;
+  padding: 10px !important;
+  transition: all 0.4s ease-in !important;
+}
+.searchButton:hover {
+  background-color: #ff7779 !important;
+  color: #fff !important;
+}
+.banner_dates {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,28 @@
+.search_heading {
+  padding: 30px;
+  margin-left: 30px;
+}
+
+.search_heading > p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  border-bottom: solid 1px lightgray;
+  padding: 10px 0 20px 0;
+  font-weight: 500;
+  font-family: "Karma", serif;
+}
+.search_heading > h1 {
+  margin-bottom: 10px;
+  font-family: "Pushster", cursive;
+}
+.all_button {
+  margin-left: 20px !important;
+  border-radius: 999px !important;
+  color: #ff7779 !important;
+  border: none !important;
+  outline: none !important;
+  text-transform: capitalize !important;
+}
+.all_button:hover {
+  background-color: transparent !important;
+}
