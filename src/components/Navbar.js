@@ -18,9 +18,6 @@ function Navbar({ check }) {
   const handleClick = () => {
     window.location.reload();
   };
-  // if (window.screen.width > 1300) {
-  //   navDisp.style.display = "block";
-  // }
 
   const handleClick1 = () => {
     const navDisp = document.getElementsByClassName("nav_visible")[0];

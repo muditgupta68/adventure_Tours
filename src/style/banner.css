@@ -50,6 +50,10 @@
 .banner_dates {
   display: flex;
   flex-direction: column;
+  margin-top: 110px;
+}
+.banner_dates > button {
+  border-radius: 0px !important;
 }
 
 @media screen and (max-width: 1200px) {

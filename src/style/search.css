@@ -23,7 +23,7 @@
 
 .nop_value > input,
 .nop > h3 {
-  margin: 0 10px;
+  margin: 0 17px;
   text-transform: capitalize;
   font-weight: 200;
   font-size: 16px;
@@ -40,7 +40,7 @@
   margin: 10px !important;
   position: absolute !important;
   left: 0 !important;
-  top: 401px !important;
+  top: 438px !important;
   background-color: #ff7779 !important;
   color: #fff !important;
   transition: all 0.35s ease-in !important;
@@ -51,14 +51,21 @@
   background-color: #fff !important;
   color: #ff7779 !important;
 }
-@media screen and (max-width: 600px) {
+
+@media screen and (max-width: 1300px) {
   .search {
-    height: 72vh;
-    left: 0 !important;
+    height: 55vh !important;
   }
-  /* test  */
+}
+
+@media screen and (max-width: 800px) {
+  .search {
+    left: 0 !important;
+    height: 62vh !important;
+  }
   .search_buttons {
     width: 76%;
+    top: 428px !important;
   }
   .nop {
     width: 78%;
