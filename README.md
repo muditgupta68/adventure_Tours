@@ -1,70 +1,94 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#  Adventure Tours Web-App
 
-## Available Scripts
+Adventure Tours is a web-Application which has front-end traveling interface using ReactJS
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ⚙️ Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Responsive Design
+- Live previews
+- Search bar with JSON file
+- SPA Web-App 
+- Cross platform
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🔧 Tech Stack
 
-### `npm run build`
+**Client:** HTML/CSS, ReactJS
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Dependencies:** React-Router, Material UI, React Date Picker
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Server:** Google Firebase Host
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 💻 Demo
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[Adventure Tours](https://adventure-tours-1086.web.app/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📍 Run Locally
 
-## Learn More
+Clone the project
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+  git clone https://github.com/muditgupta68/adventure_Tours.git
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Install node_module dependencies
 
-### Code Splitting
+```bash
+  npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Start the server
+```bash
+  npm run start
+```
 
-### Analyzing the Bundle Size
+Visit [Local Host](http://localhost/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## 📍 Screenshots
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Main Screen
 
-### Advanced Configuration
+![trailer screen](https://github.com/muditgupta68/adventure_Tours/blob/master/src/style/images/fullPage1.png?raw=false)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Result Screen
 
-### Deployment
+![trailer screen](https://github.com/muditgupta68/adventure_Tours/blob/master/src/style/images/fullPage2.png?raw=false)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 📍 Deployment
 
-### `npm run build` fails to minify
+The project is deployed on Firebase
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+So,
+
+The steps involved as follows:
+
+- login the firebase database with your respective credentials
+```bash
+  firebase login
+
+```
+- Inititalising and building up the project in build folder for efficiency 
+
+```bash
+  firebase init
+  npm run build
+```
+- Deploying the files into the database
+```bash
+  firebase deploy
+```
+## 🛠 Optimizations
+
+- We can add up backend like using NodeJS/ExpressJS & database like MONGODB
+
+## 👨‍💻 Feedback
+
+If you have any feedback, please reach out to us at muditgupta1086@gmail.com
+
